@@ -724,7 +724,7 @@
       "aws-config": [
         {
           "excl-regions": ["${GBL_REGION}"],
-          "rules": ["ELB_LOGGING_ENABLED", "S3_BUCKET_SERVER_SIDE_ENCRYPTION_ENABLED"],
+          "rules": ["S3_BUCKET_SERVER_SIDE_ENCRYPTION_ENABLED"],
           "remediate-regions": ["${HOME_REGION}"]
         }
       ]
@@ -772,7 +772,7 @@
       "aws-config": [
         {
           "excl-regions": ["${GBL_REGION}"],
-          "rules": ["ELB_LOGGING_ENABLED", "S3_BUCKET_SERVER_SIDE_ENCRYPTION_ENABLED"],
+          "rules": ["S3_BUCKET_SERVER_SIDE_ENCRYPTION_ENABLED"],
           "remediate-regions": ["${HOME_REGION}"]
         }
       ]
